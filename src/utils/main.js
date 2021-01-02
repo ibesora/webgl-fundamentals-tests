@@ -21,11 +21,11 @@ export const loop = (initGL, drawScene) => {
     throw('No webgl context');
   }
 
-  initGL(glContext)
+  const data = initGL(glContext)
 
   const renderLoop = () => {
     resizeGL(glContext)
-    drawScene(glContext)
+    drawScene(glContext, data)
     requestAnimationFrame(renderLoop)
   }
 
