@@ -1,0 +1,16 @@
+{
+  "name": "webgl-fundamentals-tests",
+  "version": "1.0.0",
+  "description": "WebGL fundamental tests",
+  "alias": {
+    "utils": "./src/utils"
+  },
+  "scripts": {
+    "serve": "parcel html/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  }
+}
